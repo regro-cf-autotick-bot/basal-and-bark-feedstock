@@ -1,5 +1,5 @@
 {% set name = "basal-and-bark" %}
-{% set version = "0.0.3" %}
+{% set version = "0.0.6" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/basal_and_bark-{{ version }}.tar.gz
-  sha256: 1d391d39c6eea50c4997d0483061d44c8b4e4932bcb5fe9d7bd89e0ca876482b
+  sha256: b08995ba3d153d24f3f590ceb8d1723d14150bd2b6950ff143f51680317be67e
 
 build:
   noarch: python
